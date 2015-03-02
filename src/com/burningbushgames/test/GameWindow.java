@@ -1,4 +1,4 @@
-package helloWorld;
+package com.burningbushgames.test;
 
 
 
