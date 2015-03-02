@@ -29,6 +29,8 @@ public class GameWindow extends BasicGameState {
 	{
 		g.setColor(Color.orange);
 		g.fill(rectangle);
+		g.setColor(Color.red);
+		g.draw(rectangle);
 		
 	}
 
