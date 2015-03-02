@@ -27,7 +27,7 @@ public class GameWindow extends BasicGameState {
 	@Override
 	public void render(GameContainer gc, StateBasedGame sbg, Graphics g) throws SlickException 
 	{
-		g.setColor(Color.green);
+		g.setColor(Color.blue);
 		g.fill(rectangle);
 		
 	}
