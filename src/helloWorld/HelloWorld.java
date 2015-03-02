@@ -5,6 +5,7 @@ public class HelloWorld {
 	{
 		System.out.println("Hello World!!");
 		System.out.println("This is clrearly better than before.");
+		System.out.println("And now it is the bestest.");
 	}
 
 }
