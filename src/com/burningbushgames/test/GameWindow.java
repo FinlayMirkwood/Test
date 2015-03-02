@@ -19,15 +19,15 @@ public class GameWindow extends BasicGameState {
 	public void init(GameContainer gc, StateBasedGame sbg) throws SlickException 
 	{
 		rectangle = new Polygon(new float[] {0,0, 10,0, 10,10, 0,10});
-		rectangle.setCenterX(gc.getWidth()/2);
-		rectangle.setCenterY(gc.getHeight()/2);
+		rectangle.setCenterX(gc.getWidth()*.5F);
+		rectangle.setCenterY(gc.getHeight()*.5F);
 		
 	}
 
 	@Override
 	public void render(GameContainer gc, StateBasedGame sbg, Graphics g) throws SlickException 
 	{
-		g.setColor(Color.blue);
+		g.setColor(Color.orange);
 		g.fill(rectangle);
 		
 	}
