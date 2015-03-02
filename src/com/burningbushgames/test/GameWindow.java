@@ -21,7 +21,6 @@ public class GameWindow extends BasicGameState {
 		rectangle = new Polygon(new float[] {0,0, 10,0, 10,10, 0,10});
 		rectangle.setCenterX(gc.getWidth()*.5F);
 		rectangle.setCenterY(gc.getHeight()*.5F);
-		System.out.println("you suck");
 		
 	}
 
