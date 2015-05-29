@@ -34,6 +34,7 @@ public class GameWindow extends BasicGameState {
 		scale = (gc.getWidth()/2F)/level.getWidth();
 		level = level.getScaledCopy(scale);
 		System.out.println(scale);
+		//Hi
 		levelHolder = new Polygon(new float[] {0,0, level.getWidth(),0, level.getWidth(),level.getHeight(), 0,level.getHeight()});
 		levelHolder.setCenterX(gc.getWidth()/2);
 		levelHolder.setCenterY(gc.getHeight()/2);
